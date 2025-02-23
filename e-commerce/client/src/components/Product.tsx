@@ -18,7 +18,7 @@ export default function Product({product}: Props){
           </Typography>
           <Typography variant="body2" color="secondary">
             {(product.price / 100).toFixed(2)} ₺
-          </Typography>2
+          </Typography>
         </CardContent>
         <CardActions>
           <Button variant="outlined" startIcon={<AddShoppingCart/>} color="success" size="small">Add to Card</Button>
